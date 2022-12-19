@@ -1,7 +1,7 @@
 #!/usr/bin/node
 const firstArgument = process.argv[2];
 
-function factorial(n) {
+function factorial (n) {
   if (isNaN(n)) {
     return 1;
   }
